@@ -1,5 +1,11 @@
 <html>
 <body>
+<p>Student information table</p>
+<div>
+<img src="../images/t01.png" /><a href="/insertData/form_add.htm">Add Record</a>
+<img src="../images/t02.png" /><a href="/updateData/form_update.php">Modify</a>
+<img src="../images/t03.png" /><a href="/deleteData/form_del.php">Delete</a>
+</div>
 <table>
     <thead>
     <tr>
