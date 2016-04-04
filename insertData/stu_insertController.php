@@ -29,8 +29,9 @@ function test_input($data) {
 include 'stu_insertRecord.php';
 include 'stu_insertDAO.php';
 insert_DB($id,$fname,$mname,$lname,$email,$tel,$gender,$status,$semester,$year,$intstatus);
-
-
 ?>
+<br>
+<br>
+<p><a href="../listTable/comp_listDAO.php">Return to home page</a></p>
 </body>
 </html

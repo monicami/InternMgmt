@@ -106,11 +106,11 @@ h2{font-weight:normal;}
 .toolbar1 li{background:url(../images/toolbg.gif) repeat-x; line-height:33px; height:33px; border:solid 1px #d3dbde; float:left; padding-right:10px; margin-left:5px;border-radius: 3px; behavior:url(js/pie.htc);}
 .toolbar1 li span{float:left; margin-left:10px; margin-right:5px; margin-top:5px;}
 .tablelist{border:solid 1px #cbcbcb; width:100%; clear:both;}
-.tablelist th{background:url(../images/th.gif) repeat-x; height:34px; line-height:34px; border-bottom:solid 1px #b6cad2; text-indent:12px; text-align:left;}
-.tablelist td{line-height:35px; text-indent:11px; border-right: dotted 1px #c7c7c7;}
+.tablelist th{background:url(../images/th.gif) repeat-x; font-style:normal;height:34px; line-height:34px; border-bottom:solid 1px #b6cad2; text-indent:15px; text-align:left;}
+.tablelist td{line-height:35px; text-indent:9px; border-right: dotted 1px #c7c7c7;}
 .tablelink{color:#056dae;}
-.tablelist tbody tr.odd{background:#f5f8fa;}
-.tablelist tbody tr:hover{background:#e5ebee;}
+.tablelist tr:nth-child(even){background:#f5f8fa;}
+.tablelist tr:nth-child(odd){background:#e5ebee;}
 .sort{padding-left:3px;}
 
 /*page*/
@@ -183,10 +183,10 @@ h2{font-weight:normal;}
 .formtitle span{font-weight:bold;font-size:14px; border-bottom:solid 3px #66c9f3;float:left; position:absolute; z-index:100; bottom:-1px; padding:0 3px; height:30px; line-height:30px;}
 .forminfo{padding-left:23px;}
 .forminfo li{margin-bottom:13px; clear:both;}
-.forminfo li label{width:86px;line-height:34px; display:block; float:left;}
+.forminfo li label{width:130px;line-height:34px; display:block; float:left;}
 .forminfo li i{color:#7f7f7f; padding-left:20px; font-style:normal;}
 .forminfo li cite{display:block; padding-top:10px;}
-.dfinput{width:200px; height:28px; line-height:32px; border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; background:url(../images/inputbg.gif) repeat-x; text-indent:10px;}
+.dfinput{width:180px; height:28px; line-height:34px; border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; background:url(../images/inputbg.gif) repeat-x; text-indent:10px;}
 .textinput{border-top:solid 1px #a7b5bc; border-left:solid 1px #a7b5bc; border-right:solid 1px #ced9df; border-bottom:solid 1px #ced9df; background:url(../images/inputbg.gif) repeat-x; padding:10px; width:504px; height:135px; line-height:20px; overflow:hidden;}
 .btn{width:137px;height:35px; background:url(../images/btnbg.png) no-repeat; font-size:14px;font-weight:bold;color:#fff; cursor:pointer;}
 
