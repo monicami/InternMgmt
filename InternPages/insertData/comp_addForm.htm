@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Insert Data</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="main">
+<a href="../company.php"><img src="/images/back3.png" class="back-button" align="right"/></a>
+</div>
+<div class="formbody">
+    
+    <div class="formtitle"><span>Add new companies</span></div>
+<form action="comp_insertController.php" method="post">
+<ul class="forminfo">
+<li><label>Company Name: </label><input type="text" name="comp_name" class="dfinput" /><i>Exp. Microsoft</i></li>
+<li><label>Type: </label>  <select name="comp_type" class="dfinput">
+    <option value="Company">Company</option>
+    <option value="Startup Company">Startup Company</option>
+    <option value="Research Project">Research Project</option>
+    <option value="MAC Project">MAC Project</option>
+    <option value="Other">Other</option>
+  </select></li>
+<li><label>Website: </label><input type="text" name="websit" class="dfinput" /><i>Exp. https://www.microsoft.com</i></li>
+<li><label>Address: </label><input type="text" name="address" class="dfinput" /></li>
+<li><label>City: </label><input type="text" name="city" class="dfinput" /></li>
+<li><label>Country: </label><input type="text" name="country" class="dfinput" /></li>
+<li><label>Postal Code:</label><input type="text" name="postalcode" class="dfinput" /></li>
+<li><label>Description:</label><input type="text" name="note" class="dfinput" /></li>
+<br>
+
+<br>
+<li><label>&nbsp;</label><input name="" type="submit" class="btn" value="Submit"/></li>
+
+<!--<input type="submit" value="Submit"> -->
+
+</ul>
+</form>
+</div>
+</body>
+</html>
